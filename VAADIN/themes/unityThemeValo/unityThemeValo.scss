@@ -1,0 +1,209 @@
+@import "../valo/valo.scss";
+@import "../common/common.scss";
+
+
+
+body {
+	font: 300 15px/1.55 "Open Sans",sans-serif;
+}
+
+#eudat {
+    background: #f45d00 none repeat scroll 0 0;
+    color: #fff;
+    padding: 4px 50px;
+    width: 100%;
+}
+
+#eudat a {color: #FFF; font-weight: bold; text-transform: uppercase; text-decoration: none;}
+#eudat a:hover {color: #F6D27C; font-weight: bold; text-transform: uppercase; text-decoration: none;}
+
+.unityThemeValo {
+    background: #fff url("../common/img/bg_page.png") no-repeat scroll center center;
+}
+
+
+@mixin unityThemeValo {
+
+	@include valo;
+	
+	@include unityCommon;
+}
+
+#footer {
+    background: #f7f3e9 url("../common/img/color-line.jpg") repeat-x scroll left top;
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    font-size: 12px;
+    height: 100px;
+    min-height: 100px;
+    padding: 20px 50px;
+    text-align: center;
+    width: 100%;
+}
+
+
+#footer .v-link a, #footer .v-link a:visited {
+    border-bottom: 0 none !important;
+    color: #333;
+    padding: 20px 10px;
+    text-decoration: none !important;
+}
+#footer .v-link a:hover {
+    border-bottom: 0 none;
+    color: #f45d00;
+    text-decoration: underline;
+}
+#footer .v-link {
+    color: #333;
+    text-decoration: none !important;
+}
+#header {
+    background: #fff url("../common/img/img_header.png") no-repeat scroll right top;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 50px;
+}
+#header .v-link a, #header .v-link a:visited {
+    border-bottom: 0 none !important;
+    color: #333;
+    font-weight: 500;
+    padding: 20px 10px;
+    text-decoration: none !important;
+}
+#header .v-link a:hover {
+    border-bottom: 0 none;
+    color: #f45d00;
+    text-decoration: underline;
+}
+#header .v-link {
+    color: #333;
+    text-decoration: none !important;
+}
+
+.v-app {}
+#main-element {}
+#header .v-slot {line-height: 130px;}
+
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+nav {
+	background: #fff;
+	clear: both;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 1;
+	margin: 0;
+	padding: 15px 0;
+	width: 100%;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav .menu-item {
+	display: inline-block;
+	text-align: left;
+}
+
+nav a {
+	color: #282b2d;
+	display: block;
+	padding: 10px 64px 10px 0;
+}
+
+nav a:hover {
+	color: #93a748;
+}
+
+
+/* ## Necessary Demo Styles
+--------------------------------------------- */
+.responsive-nav-icon::before,
+.responsive-nav-close::before {
+    color: #93a748;
+    content: "\f0c9";
+    font-family: FontAwesome;
+    font-size: 22px;
+    position: relative;
+}
+
+.responsive-nav-close::before {
+    color: #93a748;
+    content: "\f00d";
+    font-size: 18px;
+}
+
+.responsive-nav-icon {
+	background: #fff;
+	line-height: normal;
+	padding: 5px 8px 4px;
+	top: 5%; left: 5%;
+}
+
+.responsive-nav-icon:hover,
+.responsive-nav-close:hover {
+	opacity: .7;
+}
+
+.responsive-nav-close {
+	top: 10px; right: 10px;
+}
+
+.responsive-nav-icon,
+.responsive-nav-close {
+    cursor: pointer;
+    display: none;
+}
+
+#overlay {
+    background: 0 0 rgba(0, 0, 0, 0.8);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    width: 100%;
+    z-index: 90;
+}
+
+@media only screen and (max-width: 960px) {
+	.responsive-nav-icon,
+	.responsive-nav-close {
+	    display: block;
+	    position: absolute;
+	    z-index: 1;
+	}
+
+	nav {
+	    height: 100%;
+	    padding: 20px;
+	    position: fixed;
+	    top: 0; left: -400px;
+	    -moz-transition: all 0.2s linear 0s;
+	    -webkit-transition: all 0.2s linear 0s;
+	    -ms-transition: all 0.2s linear 0s;
+	    transition: all 0.2s linear 0s;
+	    width: 0;
+	}
+	
+	nav.slide-in {
+	    left: 0;
+	    overflow-y: scroll;
+	    width: 280px;
+	    z-index: 100;
+	}
+	
+	nav .menu-item {
+		display: block;
+	}
+}

@@ -1,0 +1,348 @@
+@import "configuration.scss";
+
+
+	
+@mixin flag-bg-template($flagpath) {
+	background-image: $flagpath;
+	background-repeat: no-repeat;
+	background-position: 99% top;
+	background-origin: content-box;
+}
+
+@mixin unityCommon {
+	
+
+    //Overriding the default layout
+    		
+	.v-caption-bold {
+	  font-weight: bold;
+	}
+	
+	.v-button-link {
+		height: inherit;
+	}
+	
+	.v-label-light {
+    	font-size: small;
+	}
+	
+	.v-button-link {
+		padding: 0px 2px;
+	}
+	
+	.v-disabled {
+		color: $bgDisabledColor;
+	}
+	
+   
+    //Custom styles
+	
+	.u-visiblescroll {
+		overflow: visible;
+	}
+	
+	.v-tabsheet-tabs-u-bigTabsheet .v-caption {
+		font-size: ceil($v-font-size * 1.1);
+	}
+	
+	.u-messageBox {
+		background-color:#EEEEEE;
+		border-radius: 4px;
+		box-shadow: 3px 3px 3px #999999;
+		padding:5px;
+	}
+	
+	.u-indent {
+		margin-left: $v-layout-margin-left;
+	}
+	
+	.u-formSection {
+		font-size: 13px;
+		font-weight: bold;
+		margin: 14px 0 4px 0;
+	}
+	
+	.u-emphasized {
+		font-style: italic;
+	}
+	
+	.u-bold {
+		font-weight: bold;
+	}
+	
+	.u-immutableAttribute {
+		color: gray;
+	}
+	
+	.u-error {
+		color: red;
+	}
+	
+	.u-success {
+		color: $textSuccessColor;
+	}
+	
+	.u-header {
+		/* background: $headerBackgroundImage; */
+		background: none;
+	}
+	
+	.u-textLarge {
+		font-size: large;	
+		line-height: 1.4;
+	}
+	
+	.u-textXLarge {
+		font-size: x-large;
+		line-height: 2;
+	}
+	
+	.u-textEndpointHeading {
+		font-family: $font;
+		letter-spacing: -1px;
+		font-size: $v-font-size--huge;
+		line-height: 1.1;
+		font-weight: 300;
+	}
+
+	.u-textHeading2 {
+		font-family: $font;
+		letter-spacing: -1px;
+		font-size: 26px;
+		font-weight: 300;
+		color: #464646;
+	}
+		
+	.u-bigTab {
+	}
+	
+	.u-toolbarButton:hover {
+		box-shadow: 0px 1px 3px 0px $shadowColor;
+	}
+	
+	.u-bigTab:hover {
+	    background: $bigTabHoverBgImage;
+	    box-shadow: 6px 6px 3px $shadowColor;
+	}
+	
+	.u-bigTabSelected {
+		/* background: $bigTabSelectedBgImage; */
+		background: #F6D27C;
+		color: black;
+		/* box-shadow: 6px 6px 3px $shadowColor; */
+	}
+	
+	.u-textCenter {
+		text-align: center;
+	}
+	
+	.u-verticalLine {
+		width: 0px;
+		height: 16px;
+		border: 1px inset;
+		color: gray;
+		margin: 0px 8px;
+	}
+	
+	.u-horizontalLine {
+		width: 16px;
+		height: 0px;
+		border: 1px inset;
+		color: gray;
+		margin: 8px 0px;
+	}
+
+	.u-selectedButton {
+		box-shadow: 0px 0px 9px $shadowColor;
+	}
+	
+	.u-smallMargins {
+		margin-left: round($v-unit-size/3);
+		margin-right: round($v-unit-size/3);
+		margin-top: round($v-unit-size/3);
+		margin-bottom: round($v-unit-size/3);
+	}
+	
+	.u-verticalPaddingSmall.v-margin-top    {padding-top:    round($v-unit-size/3);}
+	.u-verticalPaddingSmall.v-margin-bottom {padding-bottom: round($v-unit-size/3);}
+
+	.u-minHeightAuthenticator {
+		min-height: 8 * $v-unit-size;
+	}
+	
+	.u-imageWidthSmall .v-button-wrap .v-icon {
+		width: $v-unit-size * 4;
+	}
+	
+	.u-imageHeightSmall .v-button-wrap .v-icon {
+		height: $v-unit-size * 4;
+	}
+	
+	.u-imageWidthTiny .v-button-wrap .v-icon {
+		width: $v-unit-size * 2;
+	}
+	
+	.u-imageHeightTiny .v-button-wrap .v-icon {
+		height:  $v-unit-size * 2;
+	}
+
+	.u-imageMaxHeightMedium .v-button-wrap .v-icon {
+		max-height: $v-unit-size * 8;
+	}
+	
+	.u-imageMaxHeightSmall .v-button-wrap .v-icon {
+		max-height:  $v-unit-size * 4;
+	}
+	
+	.u-imageMaxHeightTiny .v-button-wrap .v-icon {
+		max-height: $v-unit-size * 2;
+	}
+	
+	.u-maxWidthColumn {
+		max-width: $v-unit-size * 24;
+	}
+	
+	.u-smallMargin.v-margin-top {
+		padding-top: round($v-layout-margin-top/3);
+	}
+
+	.u-negativeBottomMarginSmall {
+		margin-bottom: (-round($v-layout-margin-bottom/3));
+	}
+
+	.u-negativeTopMargin {
+		margin-top: (-($v-layout-margin-top/3)*2);
+	}
+
+	.v-panel-content-u-centeredPanel > div {
+		display: block;
+		margin: auto;
+	}
+	
+	/* green background for translation profile test */
+	.v-textfield-u-trueCondition-bg.v-readonly {
+		background: $bgSuccessColor;
+	}
+	
+	.v-filterselect-u-trueCondition-bg.v-readonly {
+		background: $bgSuccessColor;
+	}
+
+	.v-ddwrapper-u-trueCondition-bg {
+		.v-textfield {
+			background: $bgSuccessColor;
+		}
+	}
+	
+	/* gray background for translation profile test */
+	.v-textfield-u-falseCondition-bg.v-readonly {
+		background: $bgDisabledColor;
+	}
+	
+	.v-filterselect-u-falseCondition-bg.v-readonly {
+		background: $bgDisabledColor;
+	}
+	
+	.v-ddwrapper-u-falseCondition-bg {
+		.v-textfield {
+			background: $bgDisabledColor;
+		}
+	}
+	
+	/* red background for translation profile test */
+	.v-textfield-u-error-bg.v-readonly  {
+		background: $bgErrorColor;
+	}
+	
+	.v-filterselect-u-error-bg.v-readonly {
+		background: $bgErrorColor;
+	}
+	
+	.v-ddwrapper-u-error-bg {
+		.v-textfield {
+			background: $bgErrorColor;
+		}
+	}
+	
+	.u-smallSpacing {
+		.v-spacing {
+			height: $u-small-margin;
+			width: $u-small-margin;
+		}	
+	}
+
+	.u-smallFormSpacing > table > tbody > [class*="row"] > td {
+	    padding-top: $u-small-margin;
+	}
+
+	.u-tinySpacing {
+		.v-spacing {
+			height: $u-tiny-margin;
+			width: $u-tiny-margin;
+		}	
+	}
+
+	.u-hidden {
+		visibility: hidden;
+	}
+	
+	.u-floatRight {
+		float: right;
+	}
+
+	.u-vAlignMiddle {
+		vertical-align: middle;
+	}
+	
+	.u-hMarginSmall {
+		margin-left: $u-small-margin;
+		margin-right: $u-small-margin;
+	}	
+
+	.u-rightMargin {
+		margin-right: $v-layout-margin-right;
+	}	
+
+	.u-bottomMargin {
+		margin-bottom: $v-layout-margin-right;
+	}	
+
+	.u-margin {
+		margin-left: $v-layout-margin-left;
+		margin-right: $v-layout-margin-right;
+		margin-top: $v-layout-margin-top;
+		margin-bottom: $v-layout-margin-bottom;
+	}	
+	
+	.u-idptile .v-grid-row > td {
+		border-left: none;
+		border-bottom: none;
+		
+	}
+
+	.u-idptile .v-grid-row > td:first-child {
+		width: $u-small-margin * 2 + $u-idp-row-height * 2;
+		text-align: center;
+	}
+	
+	.u-idptile td > img {
+		max-height: $u-idp-row-height - round($v-unit-size/18);
+		max-width: $u-idp-row-height * 2;
+	}
+	
+	.u-idptile .v-grid-tablewrapper {
+    	border: none;
+	}
+	
+	.u-flag-bg-en {
+		@include flag-bg-template($flagImageEn);
+	}
+
+	.u-flag-bg-pl {
+		@include flag-bg-template($flagImagePl);
+	}
+
+	.u-flag-bg-de {
+		@include flag-bg-template($flagImageDe);
+	}
+}
