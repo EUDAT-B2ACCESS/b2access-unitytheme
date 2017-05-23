@@ -61,11 +61,11 @@ vaadin.initApplication("${appId}",{
 				<div class="v-horizontallayout v-layout v-horizontal v-widget">
 					<div class="v-slot">
 						<div class="v-link v-widget">
-							<a href="https://b2access.eudat.eu/files/terms-of-use.html"><span>Terms of Use</span></a>
+							<a href="https://b2access.eudat.eu/unitygw/VAADIN/files/terms-of-use.html"><span>Terms of Use</span></a>
 						</div>
 					</div>
 					<div class="v-slot">
-						<div class="v-link v-widget"><a href="https://b2access.eudat.eu/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
+						<div class="v-link v-widget"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
 					</div>
 					<div class="v-slot">
 						<div class="v-link v-widget"><a href="https://eudat.eu/what-eudat"><span>About EUDAT</span></a></div>

@@ -27,7 +27,7 @@
 							<div class="v-link v-widget top-header-button v-link-top-header-button"><a href="https://eudat.eu/services/userdoc/b2access"><span>User Guide</span></a></div>
 						</div>
 						<div class="v-slot v-slot-top-header-button">
-							<div class="v-link v-widget top-header-button v-link-top-header-button"><a href="https://b2access.eudat.eu/files/faq.html"><span>FAQs</span></a></div>
+							<div class="v-link v-widget top-header-button v-link-top-header-button"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/faq.html"><span>FAQs</span></a></div>
 						</div>
 						<div class="v-slot v-slot-top-header-button">
 							<div class="v-link v-widget top-header-button v-link-top-header-button"><a href="https://eudat.eu/support-request?service=B2ACCESS"><span>Contact</span></a></div>
