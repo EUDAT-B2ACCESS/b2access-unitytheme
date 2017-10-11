@@ -52,13 +52,18 @@ vaadin.initApplication("${appId}",{
 					<div class="v-slot">
 						<div class="v-label v-widget v-label-undef-w">EUDAT receives funding from the European Union’s Horizon 2020 research and
 							<br>
-							innovation programme under grant agreement No. 654065. Legal Notice
+							innovation programme under grant agreement No. 654065. <a target="blank" href="https://eudat.eu/legal-notice">Legal Notice</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="v-slot v-align-right" style="width: 50%;">
 				<div class="v-horizontallayout v-layout v-horizontal v-widget">
+					<div class="v-slot">
+                        <div class="v-link v-widget">
+							<a target="_blank" href="https://hdl.handle.net/11304/e43b2e3f-83c5-4e3f-b8b7-18d38d37a6cd"><span>EUDAT Service ToU</span></a>
+                        </div>
+                    </div>
 					<div class="v-slot">
 						<div class="v-link v-widget">
 							<a href="https://b2access.eudat.eu/unitygw/VAADIN/files/terms-of-use.html"><span>Terms of Use</span></a>
