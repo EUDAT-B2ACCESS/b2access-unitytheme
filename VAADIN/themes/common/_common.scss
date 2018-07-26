@@ -1,6 +1,4 @@
 @import "configuration.scss";
-
-
 	
 @mixin flag-bg-template($flagpath) {
 	background-image: $flagpath;
@@ -22,6 +20,10 @@
 		height: inherit;
 	}
 	
+	.v-button-link:after {
+		content: none;
+	}
+
 	.v-label-light {
     	font-size: small;
 	}
@@ -74,6 +76,10 @@
 		color: gray;
 	}
 	
+	.u-readOnlyTableElement {
+		color: gray;
+	}	
+
 	.u-error {
 		color: red;
 	}
@@ -83,8 +89,8 @@
 	}
 	
 	.u-header {
-		/* background: $headerBackgroundImage; */
-		background: none;
+		/*background: $headerBackgroundImage;*/
+		backgroung: none;
 	}
 	
 	.u-textLarge {
@@ -113,11 +119,17 @@
 		color: #464646;
 	}
 		
-	.u-bigTab {
+	.u-bigTab .v-icon {
+		margin-top: -8px;
+		margin-bottom: 8px;
+	}
+
+	.u-bigTabSelected .v-icon {
+		margin-top: -8px;
+		margin-bottom: 8px;
 	}
 	
 	.u-toolbarButton:hover {
-		box-shadow: 0px 1px 3px 0px $shadowColor;
 	}
 	
 	.u-bigTab:hover {
@@ -126,29 +138,28 @@
 	}
 	
 	.u-bigTabSelected {
-		/* background: $bigTabSelectedBgImage; */
-		background: #F6D27C;
+		background: $bigTabSelectedBgImage;
 		color: black;
-		/* box-shadow: 6px 6px 3px $shadowColor; */
+		box-shadow: 6px 6px 3px $shadowColor;
 	}
 	
 	.u-textCenter {
 		text-align: center;
 	}
 	
-	.u-verticalLine {
+	.u-verticalBar {
 		width: 0px;
-		height: 16px;
-		border: 1px inset;
-		color: gray;
+		height: 100%;
+		border-left: 1px solid;
+		color: #d4d4d4;
 		margin: 0px 8px;
 	}
 	
-	.u-horizontalLine {
-		width: 16px;
+	.u-horizontalBar {
+		width: 100%;
 		height: 0px;
-		border: 1px inset;
-		color: gray;
+		border-top: 1px solid;
+		color: #d4d4d4;
 		margin: 8px 0px;
 	}
 
@@ -205,7 +216,11 @@
 	.u-smallMargin.v-margin-top {
 		padding-top: round($v-layout-margin-top/3);
 	}
-
+	
+	.u-smallMargin {
+		padding-top: round($v-layout-margin-top/3);
+	}
+	
 	.u-negativeBottomMarginSmall {
 		margin-bottom: (-round($v-layout-margin-bottom/3));
 	}
@@ -282,6 +297,10 @@
 		}	
 	}
 
+	.u-link {
+		color : #197de1;
+	}
+
 	.u-hidden {
 		visibility: hidden;
 	}
@@ -317,7 +336,6 @@
 	.u-idptile .v-grid-row > td {
 		border-left: none;
 		border-bottom: none;
-		
 	}
 
 	.u-idptile .v-grid-row > td:first-child {
@@ -344,5 +362,74 @@
 
 	.u-flag-bg-de {
 		@include flag-bg-template($flagImageDe);
+	}
+
+	.v-menubar .v-menubar-submenu-indicator + .v-menubar-menuitem-caption::after {
+		margin: 0 -3px 0 -3px;
+		font-family: FontAwesome;
+		content: "\f078";
+		font-size: 0em;
+		vertical-align: .15em;
+	}
+
+	.v-menubar-popup .v-menubar-menuitem .v-icon  {
+		color: #197de1;
+	}
+	
+	.v-menubar-popup .v-menubar-menuitem-selected {
+		background-image: -webkit-linear-gradient(top, #8ebef0 2%, #a5cbf3 98%);
+		background-image: linear-gradient(to bottom,#8ebef0 2%, #a5cbf3 98%); 
+		background-color: transparent;
+	}
+
+	.v-menubar-u-toolbarButton {
+		height: auto;
+		line-height: inherit;
+	}
+
+	.v-caption-u-emphasized {
+		font-size: 150%;
+	}
+
+    .u-noGridHorizontalLines .v-grid-cell-focused:before {
+        display: none !important;
+    }
+   
+	.u-noGridHorizontalLines .v-grid-tablewrapper table tbody tr td {
+		border-left: none;
+		border-bottom: none;
+		line-height: 29px;
+		height: 30px;
+	}
+
+	.u-noGridHorizontalLines .v-grid-tablewrapper table tbody tr:last-child td {
+		border-bottom: 1px solid #d4d4d4;
+	}
+
+	.u-denseTreeGrid td {
+		line-height: 34px;
+		height: 34px;
+	}
+
+	.u-denseTreeGrid .v-treegrid-tablewrapper .v-treegrid-cell-content {
+    	padding-bottom: 6px;
+	}
+	
+    .drop-layout .v-horizontallayout-drag-center {
+ 		background-color: #197de1;}
+	
+
+
+ 	.v-assistive-device-only-label label {
+		font-size:0;
+		width: 0px; 
+ 	}
+
+	.u-largeIcon .v-icon {
+		font-size : 24px;
+	}
+	
+	.u-veryLargeIcon .v-icon {
+		font-size : 34px;
 	}
 }
