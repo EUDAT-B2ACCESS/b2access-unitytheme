@@ -15675,3 +15675,86 @@ nav a:hover {
 .unityThemeValo .u-veryLargeIcon .v-icon {
 	font-size: 34px;
 }
+
+.unityThemeValo .u-signInButton {
+	width: 100%;
+}
+
+.unityThemeValo .u-signInButton .v-button-wrap img {
+	padding: 4px 0px 0px 2px;
+	height: 27px;
+	vertical-align: top;
+}
+
+.unityThemeValo .u-signUpButton {
+	width: 100%;
+}
+
+.unityThemeValo .u-authn-columnsSeparator {
+	min-width: 35px;
+}
+
+.unityThemeValo .u-authn-logo {
+	height: 70px;
+}
+
+.unityThemeValo .u-authn-title {
+	font-family: "Open Sans", sans-serif, Helvetica, Arial, "Lucida Grande", Geneva, Tahoma, Verdana;
+	letter-spacing: -1px;
+	font-size: 26px;
+	line-height: 1.1;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 35px;
+}
+
+.unityThemeValo .u-authnOptionTextElement {
+	height: 35px;
+}
+
+.unityThemeValo .u-verticalSpace1Unit {
+	height: 35px;
+}
+
+.unityThemeValo .u-authnOptionTextCenteredElement .v-slot {
+	height: 100%;
+}
+
+.unityThemeValo .u-authnGrid .v-grid-cell {
+	padding: 0px 0px 0px 0px;
+}
+
+.unityThemeValo .u-authnGrid .v-grid-row > td {
+	border-left: none;
+	border-bottom: none;
+}
+
+.unityThemeValo .u-authnGrid .v-grid-row > td:first-child {
+	text-align: center;
+}
+
+.unityThemeValo .u-authnGrid td > img {
+	max-height: 33px;
+	max-width: 90%;
+}
+
+.unityThemeValo .u-externalSignInButton, .unityThemeValo .u-externalGridSignInButton {
+	background: #53A0C6;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	height: 35px;
+	text-align: left;
+}
+
+.unityThemeValo .u-externalSignInButton:hover, .unityThemeValo .u-externalGridSignInButton:hover {
+	background: #3486AE;
+	color: white;
+}
+
+.unityThemeValo .u-externalSignInButton .v-button-wrap img, .unityThemeValo .u-externalGridSignInButton .v-button-wrap img {
+	padding: 4px 0px 0px 2px;
+	height: 27px;
+	vertical-align: top;
+}
