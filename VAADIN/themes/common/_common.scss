@@ -89,8 +89,8 @@
 	}
 	
 	.u-header {
-		/*background: $headerBackgroundImage;*/
-		backgroung: none;
+		/* background: $headerBackgroundImage; */
+		background: none;
 	}
 	
 	.u-textLarge {
@@ -374,6 +374,14 @@
 
 	.v-menubar-popup .v-menubar-menuitem .v-icon  {
 		color: #197de1;
+	}
+
+	.u-error-icon .v-icon  {
+		color: $v-error-indicator-color;
+	}
+
+	.v-caption-u-error-icon .v-icon  {
+		color: $v-error-indicator-color;
 	}
 	
 	.v-menubar-popup .v-menubar-menuitem-selected {

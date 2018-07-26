@@ -1017,10 +1017,6 @@
  */
 
 /**
- *
- */
-
-/**
  * @group window
  */
 
@@ -1081,7 +1077,7 @@
  */
 
 .v-vaadin-version:after {
-	content: "8.2.1";
+	content: "8.4.1";
 }
 
 .v-widget {
@@ -12818,6 +12814,7 @@ nav a:hover {
 	width: 100% !important;
 	height: auto !important;
 	padding: 9px;
+	display: inline-flex;
 }
 
 .unityThemeValo .v-colorpicker-preview-textfield {
@@ -15331,7 +15328,7 @@ nav a:hover {
 }
 
 .unityThemeValo .u-header {
-	backgroung: none;
+	background: none;
 }
 
 .unityThemeValo .u-textLarge {
@@ -15613,6 +15610,14 @@ nav a:hover {
 
 .unityThemeValo .v-menubar-popup .v-menubar-menuitem .v-icon {
 	color: #197de1;
+}
+
+.unityThemeValo .u-error-icon .v-icon {
+	color: #ed473b;
+}
+
+.unityThemeValo .v-caption-u-error-icon .v-icon {
+	color: #ed473b;
 }
 
 .unityThemeValo .v-menubar-popup .v-menubar-menuitem-selected {
