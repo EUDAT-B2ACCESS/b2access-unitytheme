@@ -3,7 +3,7 @@
 		<div id="eudat" class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
 				<div class="v-slot v-slot-eudat-link">
-					<div class="v-link v-widget eudat-link v-link-eudat-link">
+					<div class="v-link v-widget eudat-link v-link-eudat-link border">
 						<a href="https://eudat.eu"><span>Go to EUDAT website</span></a>
 					</div>
 				</div>
