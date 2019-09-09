@@ -1660,7 +1660,7 @@ body {
 }
 
 .unityThemeValo {
-	background: #fff url("../common/img/bg_page.svg") no-repeat scroll center center;
+	background: #fff url("../common/img/bg_page.png") no-repeat scroll center center;
 }
 
 #footer {
@@ -1698,6 +1698,7 @@ body {
 	padding: 0;
 	background-position: 100% 0;
 	background-size: 260px;
+	box-shadow: -7px 4px 18px -2px rgba(0,0,0,0.1);
 }
 
 #header {
@@ -1847,7 +1848,7 @@ nav a:hover {
 .unityThemeValo.v-app, .unityThemeValo.v-app-loading {
 	font: 300 15px/1.55 "Open Sans", sans-serif;
 	color: #464646;
-	background-color: #fafafa;
+	background-color: #fff;
 	cursor: default;
 }
 
