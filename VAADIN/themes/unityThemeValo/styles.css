@@ -1086,7 +1086,7 @@
 	vertical-align: top;
 	text-align: left;
 	white-space: normal;
-	color: #999;
+	
 }
 
 .v-generated-body {
@@ -1670,7 +1670,7 @@ body {
 
 #footer .v-link a, #footer .v-link a:visited {
 	border-bottom: 0 none !important;
-	color: #333;
+	color: #999;
 	padding: 20px 10px;
 	text-decoration: none !important;
 }
