@@ -1726,6 +1726,9 @@ body {
 	line-height: 130px;
 }
 
+#header .v-slot .logo{
+	padding: 20px;
+}
 nav {
 	background: #fff;
 	clear: both;

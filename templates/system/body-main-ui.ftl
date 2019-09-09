@@ -14,7 +14,7 @@
 		<div id="header" class="v-horizontallayout v-layout v-horizontal v-widget u-header v-horizontallayout-u-header v-has-width v-margin-top v-margin-right v-margin-bottom v-margin-left" style="width: 100%; height: 142px;">
 			<div class="v-expand" style="padding-left: 0px;">
 				<div class="v-slot v-slot-u-textEndpointHeading v-align-middle" style="width: 33.3333%; margin-left: 0px;">
-					<img src="/home/VAADIN/themes/common/img/logo.png">
+					<img class="logo" src="/home/VAADIN/themes/common/img/logo.png">
 				</div>
 				<div class="v-slot v-align-center" style="width: 33.3333%;">
 					<div id="top-header-buttons" class="v-horizontallayout v-layout v-horizontal v-widget">
