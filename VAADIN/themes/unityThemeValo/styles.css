@@ -1698,7 +1698,7 @@ body {
 #header {
 	font-size: 16px;
 	margin: 0;
-	padding: 5px 50px;
+	padding: 0px 50px;
 }
 
 #header .v-link a, #header .v-link a:visited {
@@ -1727,7 +1727,7 @@ body {
 }
 
 #header .v-slot .logo{
-	padding: 20px;
+	padding-top: 8px;
 }
 nav {
 	background: #fff;
