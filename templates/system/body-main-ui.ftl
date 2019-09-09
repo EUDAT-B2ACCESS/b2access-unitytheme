@@ -4,7 +4,7 @@
 			<div class="v-expand">
 				<div class="v-slot v-slot-eudat-link">
 					<div class="v-link v-widget eudat-link v-link-eudat-link">
-						<a href="https://eudat.eu"><span>Go to EUDAT website</span></a>
+						<a href="https://eudat.eu"><span>Go to EUDAT website.</span></a>
 					</div>
 				</div>
 			</div>
