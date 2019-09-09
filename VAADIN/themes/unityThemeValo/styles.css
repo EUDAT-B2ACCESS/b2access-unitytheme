@@ -1092,8 +1092,7 @@
 .v-widget.border {
 	border-left: 1px solid #577CD5;
 	border-right: 1px solid #577CD5;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 5px 10px 5px 10px;
 }
 
 .v-generated-body {
@@ -1642,7 +1641,7 @@ body {
 #eudat {
 	background: #264899 none repeat scroll 0 0;
 	color: #fff;
-	padding: 4px 50px;
+	padding: 0px 50px;
 	width: 100%;
 }
 
