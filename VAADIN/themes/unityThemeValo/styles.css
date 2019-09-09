@@ -1688,7 +1688,7 @@ body {
 }
 
 #header {
-	background: #fff url("../common/img/img_header.png") no-repeat;
+	background: #fff url("../common/img/img_header.svg") no-repeat;
 	margin: 0;
 	padding: 0;
 	background-position: 100% 0;
