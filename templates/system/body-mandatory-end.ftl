@@ -46,7 +46,7 @@ vaadin.initApplication("${appId}",{
 					<div id="footer-right" class="v-horizontallayout v-layout v-horizontal v-widget">
 						<div class="v-slot">
 						<div class="v-label v-widget v-label-undef-w">
-							<img src="./VAADIN/themes/common/img/european-commission.jpg">
+							<img src="./VAADIN/themes/common/img/european-commission.png">
 						</div>
 					</div>
 					<div class="v-slot">
