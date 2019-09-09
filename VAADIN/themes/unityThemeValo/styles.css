@@ -1086,6 +1086,7 @@
 	vertical-align: top;
 	text-align: left;
 	white-space: normal;
+	color: #999;
 }
 
 .v-generated-body {
@@ -1657,7 +1658,7 @@ body {
 }
 
 #footer {
-	background: #f7f3e9 url("../common/img/color-line.jpg") repeat-x scroll left top;
+	background: #555555;
 	border-top: 1px solid #ddd;
 	bottom: 0;
 	font-size: 12px;
