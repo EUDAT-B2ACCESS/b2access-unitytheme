@@ -1687,9 +1687,11 @@ body {
 }
 
 #header {
-	background: #fff url("../common/img/img_header.png") no-repeat scroll right top;
+	background: #fff url("../common/img/img_header.png") no-repeat;
 	margin: 0;
 	padding: 0;
+	background-position: 100% 0;
+	background-size: 13%;
 }
 
 #header {
