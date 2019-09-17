@@ -47,10 +47,11 @@ vaadin.initApplication("${appId}",{
 						<div class="v-slot">
 						<div class="v-label v-widget v-label-undef-w">
 							<img src="./VAADIN/themes/common/img/Logo_eudat_CDI_white.svg" width="200px;">
-							© 2019 EUDAT Collaborative Data Infrastructure
+							<div class="v-label v-widget v-label-undef-w">© 2019 EUDAT Collaborative Data Infrastructure
+								© 2019 EUDAT Collaborative Data Infrastructure
+							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 			<div class="v-slot v-align-right" style="width: 50%;">
