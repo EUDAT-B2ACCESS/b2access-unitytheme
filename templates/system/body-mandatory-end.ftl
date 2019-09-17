@@ -50,11 +50,7 @@ vaadin.initApplication("${appId}",{
 							© 2019 EUDAT Collaborative Data Infrastructure
 						</div>
 					</div>
-					<div class="v-slot">
-						<div class="v-label v-widget v-label-undef-w">© 2019 EUDAT Collaborative Data Infrastructure
-
-						</div>
-					</div>
+					
 				</div>
 			</div>
 			<div class="v-slot v-align-right" style="width: 50%;">
