@@ -72,7 +72,7 @@ vaadin.initApplication("${appId}",{
 						<div class="v-link v-widget"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
 					</div>
 					<div class="v-slot">
-						<div class="v-link v-widget"><a href="https://eudat.eu/what-eudat"><span>About EUDAT</span></a></div>
+						<div class="v-link v-widget"><a href="https://eudat.eu"><span>About EUDAT</span></a></div>
 					</div>
 				</div>
 			</div>
