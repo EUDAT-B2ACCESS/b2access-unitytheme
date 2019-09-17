@@ -46,13 +46,12 @@ vaadin.initApplication("${appId}",{
 					<div id="footer-right" class="v-horizontallayout v-layout v-horizontal v-widget">
 						<div class="v-slot">
 						<div class="v-label v-widget v-label-undef-w">
-							<img src="./VAADIN/themes/common/img/european-commission.png">
+							<img src="./VAADIN/themes/common/img/Logo_eudat_CDI_white.svg">
 						</div>
 					</div>
 					<div class="v-slot">
-						<div class="v-label v-widget v-label-undef-w">EUDAT receives funding from the European Union’s Horizon 2020 research and
-							<br>
-							innovation programme under grant agreement No. 654065. <a target="blank" href="https://eudat.eu/legal-notice">Legal Notice</a>
+						<div class="v-label v-widget v-label-undef-w">© 2019 EUDAT Collaborative Data Infrastructure
+
 						</div>
 					</div>
 				</div>
