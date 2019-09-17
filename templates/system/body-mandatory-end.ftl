@@ -49,7 +49,7 @@ vaadin.initApplication("${appId}",{
 							<img src="./VAADIN/themes/common/img/Logo_eudat_CDI_white.svg" width="200px;">
 							
 						</div>
-						<div class="v-label v-widget v-label-undef-w">
+						<div class="v-label v-widget v-label-undef-w label">
 								© 2019 EUDAT Collaborative Data Infrastructure
 							</div>
 					</div>

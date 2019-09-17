@@ -1089,6 +1089,10 @@
 	color: #999;
 	
 }
+.v-widget.label {
+	display: block;
+
+}
 .v-widget.border {
 	border-left: 1px solid #577CD5;
 	border-right: 1px solid #577CD5;
@@ -1714,6 +1718,8 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
+
 
 #header .v-link a:hover {
 	border-bottom: 0 none;
