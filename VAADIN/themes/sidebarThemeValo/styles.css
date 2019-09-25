@@ -15998,7 +15998,9 @@ div.v-layout.v-horizontal.v-widget {
 	position: relative;
 	font-size: 20px;
 	padding: 10px;
+	display: none;
 }
+
 
 .sidebarThemeValo .u-sidebar .u-rootContent > .v-expand .v-slot-u-leftMenu .u-leftMenu .v-slot-u-menuLabel > div .v-caption:after {
 	position: absolute;
