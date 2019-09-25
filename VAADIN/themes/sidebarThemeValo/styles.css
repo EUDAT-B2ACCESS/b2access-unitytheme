@@ -16285,6 +16285,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 
+#eudat a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 #header .v-link a:hover {
 	border-bottom: 0 none;
@@ -16334,4 +16340,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .v-widget.label {
     display: block;
+}
+.v-widget.border {
+	border-left: 1px solid #577CD5;
+	border-right: 1px solid #577CD5;
+	padding: 5px 10px 5px 10px;
 }
