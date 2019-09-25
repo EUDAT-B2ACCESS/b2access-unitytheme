@@ -16347,3 +16347,6 @@ div.v-layout.v-horizontal.v-widget {
     white-space: normal;
     color: #999;
 }
+.v-slot .u-menuButton, .v-slot .v-slot-u-menuLabel .v-widget {
+	color: #fff;
+} 
