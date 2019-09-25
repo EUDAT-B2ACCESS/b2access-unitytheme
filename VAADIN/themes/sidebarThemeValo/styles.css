@@ -16331,3 +16331,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #333;
 	text-decoration: none !important;
 }
+
+.v-widget.label {
+    display: block;
+}
