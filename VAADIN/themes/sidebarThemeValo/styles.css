@@ -4550,8 +4550,6 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .v-grid-cell.frozen {
-	-webkit-box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
-	box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
 	border-right: 1px solid #d4d4d4;
 	position: relative;
 	z-index: 11;
@@ -4910,9 +4908,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .sidebarThemeValo .v-grid-header .v-grid-cell {
 	background-color: #fafafa;
-	background-image: -webkit-linear-gradient(top, #fafafa 2%, #efefef 98%);
-	background-image: linear-gradient(to bottom,#fafafa 2%, #efefef 98%);
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+
 }
 
 .sidebarThemeValo .v-grid-header .v-grid-cell.dragged {
@@ -16259,6 +16255,8 @@ div.v-layout.v-horizontal.v-widget {
 	background-position: 100% 0;
 	background-size: 260px;
 	box-shadow: -7px 4px 18px -2px rgba(0,0,0,0.1);
+	position: relative;
+	z-index: 2;
 }
 
 #header {
