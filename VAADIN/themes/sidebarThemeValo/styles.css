@@ -16050,7 +16050,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .u-menuButton.v-widget.u-active.u-menuButton-u-active::before {
-    border-left: 6px solid #fff;
+    border-left: 6px solid #F4F4F4;
     content: '';
     position: absolute;
     left: 0;
