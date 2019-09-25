@@ -15976,8 +15976,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .u-sidebar .u-rootContent > .v-expand .v-slot-u-leftMenu .u-leftMenu {
-	background: #04859D;
-	border-right: 1px solid #04859D;
+	background: #264899;
 	color: #F4F4F4;
 	-webkit-transition: width 0.3s ease-in-out;
 	-moz-transition: width 0.3s ease-in-out;
@@ -16046,9 +16045,19 @@ div.v-layout.v-horizontal.v-widget {
 
 .sidebarThemeValo .u-sidebar .u-rootContent > .v-expand .v-slot-u-leftMenu .u-leftMenu .u-menuButton.u-active, .sidebarThemeValo .u-sidebar .u-rootContent > .v-expand .v-slot-u-leftMenu .u-leftMenu .u-menuButton.active:hover {
 	font-weight: 900;
-	background-color: #013842;
+	background-color: #4b6ebe;
+	position: relative;
 }
 
+.u-menuButton.v-widget.u-active.u-menuButton-u-active::before {
+    border-left: 6px solid #fff;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
 .sidebarThemeValo .u-sidebar .u-rootContent > .v-expand .v-slot-u-leftMenu .u-leftMenu .u-menuButton:hover {
 	background-color: #025D6E;
 	color: #F4F4F4;
