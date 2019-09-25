@@ -15767,7 +15767,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .v-menubar-menuitem .v-icon {
-	color: #04859D !important;
+	color: #264899 !important;
 }
 
 .sidebarThemeValo .v-menubar-menuitem {
@@ -15932,7 +15932,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 35px;
 	background-image: none;
 	background-color: transparent;
-	color: #04859D;
+	color: #264899;
 	margin-left: 4.5px;
 	border: none;
 	box-shadow: none;
@@ -15941,7 +15941,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .sidebarThemeValo .u-sidebar .v-button-small:hover {
 	background-color: #F4F4F4 !important;
-	color: #04859D;
+	color: #264899;
 	border: 1px solid;
 	border-color: transparent;
 }
@@ -16167,7 +16167,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .u-sidebar .u-rootContent .u-topRightMenu .u-menuButton {
-	color: #04859D;
+	color: #264899;
 	border: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
