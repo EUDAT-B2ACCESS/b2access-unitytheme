@@ -1076,6 +1076,11 @@
  * @group valo-menu
  */
 
+
+body {
+	font: 300 15px/1.55 "Open Sans", sans-serif;
+}
+
 .v-vaadin-version:after {
 	content: "8.6.4";
 }
