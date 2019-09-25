@@ -4435,6 +4435,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .sidebarThemeValo .v-grid-tablewrapper {
 	border: 1px solid #d4d4d4;
+	margin-top: 20px;
+	background: #fff;
 }
 
 .sidebarThemeValo .v-grid .header-drag-table {
@@ -4898,7 +4900,6 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
-	background-color: #fafafa;
 }
 
 .sidebarThemeValo .v-grid.v-disabled {
