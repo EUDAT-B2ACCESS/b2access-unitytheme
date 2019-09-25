@@ -1085,13 +1085,6 @@ body {
 	content: "8.6.4";
 }
 
-.v-widget {
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	white-space: normal;
-}
 
 .v-generated-body {
 	overflow: hidden;
@@ -16345,4 +16338,12 @@ div.v-layout.v-horizontal.v-widget {
 	border-left: 1px solid #577CD5;
 	border-right: 1px solid #577CD5;
 	padding: 5px 10px 5px 10px;
+}
+.v-widget {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    white-space: normal;
+    color: #999;
 }
