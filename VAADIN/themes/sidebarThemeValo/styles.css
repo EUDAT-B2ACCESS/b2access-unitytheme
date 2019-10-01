@@ -16326,7 +16326,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #fff;
 	padding: 20px 10px;
 	text-decoration: none !important;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 #footer .v-link a:hover {
@@ -16359,6 +16359,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 #footer .v-widget {
 	color: #fff;
+	font-weight: 400;
 }
 .v-slot .u-menuButton, .v-slot .v-slot-u-menuLabel .v-widget {
 	color: #fff;
