@@ -16316,9 +16316,10 @@ div.v-layout.v-horizontal.v-widget {
 
 #footer .v-link a, #footer .v-link a:visited {
 	border-bottom: 0 none !important;
-	color: #999;
+	color: #fff;
 	padding: 20px 10px;
 	text-decoration: none !important;
+	font-weight: 600;
 }
 
 #footer .v-link a:hover {
@@ -16341,12 +16342,14 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 5px 10px 5px 10px;
 }
 .v-widget {
-    box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    white-space: normal;
-    color: #999;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	white-space: normal;
+	color: #fff;
+	font-weight: 600;
+	
 }
 .v-slot .u-menuButton, .v-slot .v-slot-u-menuLabel .v-widget {
 	color: #fff;

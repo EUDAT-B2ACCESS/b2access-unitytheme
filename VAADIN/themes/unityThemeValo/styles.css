@@ -1086,7 +1086,7 @@
 	vertical-align: top;
 	text-align: left;
 	white-space: normal;
-	color: #999;
+	color: #fff;
 	
 }
 .v-widget.label {
@@ -1678,9 +1678,10 @@ body {
 
 #footer .v-link a, #footer .v-link a:visited {
 	border-bottom: 0 none !important;
-	color: #999;
+	color: #fff;
 	padding: 20px 10px;
 	text-decoration: none !important;
+	font-weight: 600;
 }
 
 #footer .v-link a:hover {
