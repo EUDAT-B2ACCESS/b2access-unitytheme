@@ -1677,6 +1677,7 @@ body {
 }
 #footer .v-widget {
 	color: #fff;
+	font-weight: 400;
 }
 
 #footer .v-link a, #footer .v-link a:visited {
@@ -1684,7 +1685,7 @@ body {
 	color: #fff;
 	padding: 20px 10px;
 	text-decoration: none !important;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 #footer .v-link a:hover {
