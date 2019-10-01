@@ -15886,6 +15886,10 @@ div.v-layout.v-horizontal.v-widget {
 	color: #fff;
 	border-color: #D4D4D4;
 }
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon{
+	color: #fff;
+}
+
 
 .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
 	background: #6BBFCE;
