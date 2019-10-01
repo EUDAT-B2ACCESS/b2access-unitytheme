@@ -1087,6 +1087,7 @@
 	text-align: left;
 	white-space: normal;
 	color: #fff;
+	font-weight: 600;
 	
 }
 .v-widget.label {
@@ -15725,6 +15726,7 @@ nav a:hover {
 	font-weight: 300;
 	padding-top: 12px;
 	padding-bottom: 35px;
+	color: #333;
 }
 
 .unityThemeValo .u-authnOptionTextElement {
