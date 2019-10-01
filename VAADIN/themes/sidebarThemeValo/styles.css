@@ -7580,6 +7580,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .sidebarThemeValo .v-menubar-borderless .v-menubar-menuitem:first-child, .sidebarThemeValo .v-menubar-borderless .v-menubar-menuitem:last-child, .sidebarThemeValo .v-menubar-borderless .v-menubar-menuitem:first-child:last-child {
 	border-radius: 4px;
+	background: transparent !important;
 }
 
 .sidebarThemeValo .v-menubar-borderless .v-menubar-menuitem:before {
@@ -15887,7 +15888,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-color: #D4D4D4;
 }
 .sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon{
-	color: #fff;
+	color: #fff !important;
 }
 
 
