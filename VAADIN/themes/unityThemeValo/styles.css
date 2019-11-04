@@ -15720,7 +15720,7 @@ nav a:hover {
 .unityThemeValo .u-authn-logo {
 	height: 70px;
 }
-.unityThemeValo .u-authn-logo img{
+.unityThemeValo .v-slot-u-authn-logo img{
 	display: none;
 }
 
