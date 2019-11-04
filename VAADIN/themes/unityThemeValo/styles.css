@@ -15720,6 +15720,9 @@ nav a:hover {
 .unityThemeValo .u-authn-logo {
 	height: 70px;
 }
+.unityThemeValo .u-authn-logo img{
+	display: none;
+}
 
 .unityThemeValo .u-authn-title {
 	font-family: "Open Sans", sans-serif, Helvetica, Arial, "Lucida Grande", Geneva, Tahoma, Verdana;
