@@ -15725,11 +15725,15 @@ nav a:hover {
 }
 .unityThemeValo .v-slot-u-authn-logo{
 	content: url('../common/img/logo.png');
-	width: 200px;
+	width: 280px;
 	display: block;
 	height: 100%;
+	margin: auto;
+	margin-bottom: 40px;
 }
-
+.unityThemeValo .u-authn-title{
+	display: none;
+}
 .unityThemeValo .u-authn-title {
 	font-family: "Open Sans", sans-serif, Helvetica, Arial, "Lucida Grande", Geneva, Tahoma, Verdana;
 	letter-spacing: -1px;
