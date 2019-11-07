@@ -15725,7 +15725,7 @@ nav a:hover {
 }
 .unityThemeValo .v-slot-u-authn-logo{
 	content: url('../common/img/ServiceEudat_b2access.svg');
-	width: 280px;
+	width: 30%;
 	display: block;
 	height: 100%;
 	margin: auto;
