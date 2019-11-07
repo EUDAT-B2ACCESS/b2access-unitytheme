@@ -15724,7 +15724,7 @@ nav a:hover {
 	display: none;
 }
 .unityThemeValo .v-slot-u-authn-logo{
-	content: '../common/img/logo.png';
+	content: url('../common/img/logo.png');
 	width: 200px;
 	display: block;
 	height: 100%;
