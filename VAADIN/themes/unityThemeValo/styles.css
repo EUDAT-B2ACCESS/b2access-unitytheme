@@ -15723,6 +15723,11 @@ nav a:hover {
 .unityThemeValo .v-slot-u-authn-logo img{
 	display: none;
 }
+.unityThemeValo .v-slot-u-authn-logo{
+	content: '/home/VAADIN/themes/common/img/logo.png';
+	width: 200px;
+	height: 100%;
+}
 
 .unityThemeValo .u-authn-title {
 	font-family: "Open Sans", sans-serif, Helvetica, Arial, "Lucida Grande", Geneva, Tahoma, Verdana;
