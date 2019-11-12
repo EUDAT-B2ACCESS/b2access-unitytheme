@@ -1716,6 +1716,7 @@ body {
 #header .v-link a, #header .v-link a:visited {
 	border-bottom: 0 none !important;
 	color: #555;
+	line-height: 75px;
 	font-weight: 500;
 	padding: 20px 10px;
 	text-decoration: none !important;
@@ -1737,7 +1738,7 @@ body {
 }
 
 #header .v-slot {
-	line-height: 100px;
+	line-height: 25px;
 }
 
 #header .v-slot .logo{
