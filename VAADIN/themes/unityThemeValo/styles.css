@@ -1742,7 +1742,13 @@ body {
 
 #header .v-slot .logo{
 	padding-top: 8px;
-	width: 35%;
+	width: 33%;
+}
+@media only screen and (max-width: 960px) {
+	#header .v-slot .logo{
+		padding-top: 8px;
+		width: 40%;
+	}
 }
 nav {
 	background: #fff;
