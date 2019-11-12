@@ -1704,7 +1704,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-position: 100% 0;
-	background-size: 260px;
 	box-shadow: -7px 4px 18px -2px rgba(0,0,0,0.1);
 }
 
@@ -1738,11 +1737,12 @@ body {
 }
 
 #header .v-slot {
-	line-height: 130px;
+	line-height: 100px;
 }
 
 #header .v-slot .logo{
 	padding-top: 8px;
+	width: 45%;
 }
 nav {
 	background: #fff;
@@ -15725,7 +15725,7 @@ nav a:hover {
 }
 .unityThemeValo .v-slot-u-authn-logo{
 	content: url('../common/img/ServiceEudat_b2access.svg');
-	width: 30%;
+	width: 15%;
 	display: block;
 	height: 100%;
 	margin: auto;
