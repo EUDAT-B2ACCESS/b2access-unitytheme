@@ -16305,7 +16305,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 #header .v-slot {
-	line-height: 130px;
+	line-height: 24px;
+}
+.v-slot.v-slot-top-header-button {
+
+    line-height: 140px !important;
+
 }
 
 #header .v-slot .logo{
