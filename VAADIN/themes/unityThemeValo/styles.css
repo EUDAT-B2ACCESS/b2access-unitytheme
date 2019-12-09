@@ -4791,7 +4791,9 @@ nav a:hover {
 .unityThemeValo .v-grid-cell div.component-wrap {
 	width: 100%;
 }
-.unityThemeValo .u-authnGrid td .v-image{
+
+
+.unityThemeValo .v-grid-u-authnGrid td.v-grid-cell div.component-wrap img.v-image.v-widget{
 	max-height: 33px;
 	max-width: 90%;
 }
