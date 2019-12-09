@@ -4789,7 +4789,11 @@ nav a:hover {
 }
 
 .unityThemeValo .v-grid-cell div.component-wrap {
-	width: 70%;
+	width: 100%;
+}
+.unityThemeValo .u-authnGrid td > img{
+	max-height: 33px;
+	max-width: 90%;
 }
 
 .unityThemeValo .v-grid-row > td, .unityThemeValo .v-grid-editor-cells > div {
