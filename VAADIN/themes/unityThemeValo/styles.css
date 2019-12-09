@@ -1705,6 +1705,7 @@ body {
 	padding: 0;
 	background-position: 100% 0;
 	box-shadow: -7px 4px 18px -2px rgba(0,0,0,0.1);
+	background-size: 260px;
 }
 
 #header {
@@ -4788,7 +4789,7 @@ nav a:hover {
 }
 
 .unityThemeValo .v-grid-cell div.component-wrap {
-	width: 100%;
+	width: 70%;
 }
 
 .unityThemeValo .v-grid-row > td, .unityThemeValo .v-grid-editor-cells > div {
