@@ -4773,8 +4773,9 @@ nav a:hover {
 	vertical-align: middle;
 }
 
-.unityThemeValo .v-grid-cell div.component-wrap .v-image.v-widget{
-	max-width: 45px;
+.unityThemeValo .u-authnGrid .component-wrap .v-image.v-widget {
+	max-height: 33px;
+	max-width: 90%;
 }
 
 .unityThemeValo .v-grid-cell  > div {
