@@ -15834,13 +15834,17 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .u-button-action {
-	background-color: #6BBFCE;
-	color: #323232;
+	background-color: #264899;
+	color: #fff;
 }
 
 .sidebarThemeValo .u-button-action:hover {
-	background-color: #3199AC;
-	color: #323232;
+	background-color: #f45d00;
+	color: #fff;
+}
+
+.v-slot-u-breadcrumbs .u-menuButton-wrap .u-menuButton-caption, .v-slot-u-breadcrumbs .u-menuButton-wrap .u-menuButton-caption{ 
+	color: #264899;
 }
 
 .sidebarThemeValo .u-button-form {
