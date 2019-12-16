@@ -2664,7 +2664,7 @@ nav a:hover {
 	background: transparent;
 	color: inherit;
 	cursor: pointer;
-	color: #197de1;
+	color: #264899;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -15400,8 +15400,7 @@ nav a:hover {
 }
 
 .unityThemeValo .u-bigTab:hover {
-	background: url(../common/img/bigTab-bg2-gray.jpg);
-	box-shadow: 6px 6px 3px #888;
+	color: #f45d00;
 }
 
 .unityThemeValo .u-bigTabSelected {
