@@ -15405,11 +15405,19 @@ nav a:hover {
 }
 
 .unityThemeValo .u-bigTabSelected {
-	background: url(../common/img/bigTab-bg2-blue.jpg);
-	color: black;
-	box-shadow: 6px 6px 3px #888;
+	background: transparent;
+	color: #264899;
+	box-shadow: none;
+	position: relative;
 }
-
+.unityThemeValo .u-bigTabSelected:before {
+	width: 4px;
+	height: 100%;
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+}
 .unityThemeValo .u-textCenter {
 	text-align: center;
 }
