@@ -15390,13 +15390,9 @@ nav a:hover {
 	color: #464646;
 }
 
-.unityThemeValo .u-bigTab .v-icon {
-	margin-top: -8px;
-	margin-bottom: 8px;
-}
+
 
 .unityThemeValo .u-bigTabSelected .v-icon {
-	margin-bottom: 8px;
 	color: #264899;
 }
 .unityThemeValo .u-bigTabSelected .v-label{
