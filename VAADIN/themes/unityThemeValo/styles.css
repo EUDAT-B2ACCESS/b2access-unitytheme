@@ -15404,6 +15404,17 @@ nav a:hover {
 }
 
 .unityThemeValo .u-bigTabSelected {
+	background: #f2f2f2;
+	color: #264899;
+	box-shadow: none;
+	position: relative;
+}
+.unityThemeValo .v-slot-u-bigTab {
+	padding-top: 10px;
+	padding-top: 10px;
+	
+}
+.unityThemeValo .u-bigTabSelected:before {
 	color:#264899;
 	box-shadow: none;
 	position: relative;
@@ -15412,19 +15423,6 @@ nav a:hover {
 	text-align: center;
 	margin: auto;
 	padding-bottom: 10px;
-}
-.unityThemeValo .v-slot-u-bigTab {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
-}
-.unityThemeValo .u-bigTabSelected:before {
-	width: 4px;
-	height: 100%;
-	position: absolute;
-	content: '';
-	left: 0;
-	top: 0;
 }
 .unityThemeValo .u-textCenter {
 	text-align: center;
