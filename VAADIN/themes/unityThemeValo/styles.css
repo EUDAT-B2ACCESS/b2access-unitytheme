@@ -15418,6 +15418,7 @@ nav a:hover {
 	color:#264899;
 	box-shadow: none;
 	position: relative;
+	content: '';
 	background:#f2f2f2;
 	padding-top: 10px;
 	text-align: center;
