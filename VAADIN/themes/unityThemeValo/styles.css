@@ -15418,7 +15418,9 @@ nav a:hover {
 }
 .unityThemeValo .u-bigTabSelected:before {
 	box-shadow: none;
-	position: relative;
+	position: absolute;
+	left: 0;
+	top: 0;
 	content: '';
 	height: 100%;
 	width: 5px;
