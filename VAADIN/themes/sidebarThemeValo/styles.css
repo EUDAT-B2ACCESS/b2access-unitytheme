@@ -15232,6 +15232,9 @@ div.v-layout.v-horizontal.v-widget {
 	margin-bottom: 8px;
 }
 
+.sidebarThemeValo .u-bigTabSelected .v-icon {
+	margin-bottom: 8px;
+}
 
 .sidebarThemeValo .u-bigTab {
 	padding-top: 10px;
