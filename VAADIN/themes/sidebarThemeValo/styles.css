@@ -15236,6 +15236,9 @@ div.v-layout.v-horizontal.v-widget {
 	margin-bottom: 8px;
 	color: #264899;
 }
+.sidebarThemeValo .u-bigTabSelected .v-label{
+	color: #264899;
+}
 
 .sidebarThemeValo .u-bigTab {
 	padding-top: 10px;
