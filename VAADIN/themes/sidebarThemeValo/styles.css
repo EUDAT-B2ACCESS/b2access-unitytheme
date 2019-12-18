@@ -15237,15 +15237,30 @@ div.v-layout.v-horizontal.v-widget {
 	margin-bottom: 8px;
 }
 
-.sidebarThemeValo .u-bigTab:hover {
-	background: url(../common/img/bigTab-bg2-gray.jpg);
-	box-shadow: 6px 6px 3px #888;
+.sidebarThemeValo .u-bigTab {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
 }
 
 .sidebarThemeValo .u-bigTabSelected {
-	background: url(../common/img/bigTab-bg2-blue.jpg);
-	color: black;
-	box-shadow: 6px 6px 3px #888;
+	background: #f2f2f2;
+	color: #264899;
+	box-shadow: none;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.sidebarThemeValo .u-bigTabSelected:before {
+	box-shadow: none;
+	position: relative;
+	content: '';
+	height: 100%;
+	width: 5px;
+	background:#264899;
+	text-align: center;
+	margin: auto;
+	
 }
 
 .sidebarThemeValo .u-textCenter {
