@@ -15408,6 +15408,8 @@ nav a:hover {
 	color: #264899;
 	box-shadow: none;
 	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 .unityThemeValo .v-slot-u-bigTab {
 	padding-top: 10px;
@@ -15415,15 +15417,15 @@ nav a:hover {
 	
 }
 .unityThemeValo .u-bigTabSelected:before {
-	color:#264899;
 	box-shadow: none;
 	position: relative;
 	content: '';
+	height: 100%;
+	width: 5px;
 	background:#264899;
-	padding-top: 10px;
 	text-align: center;
 	margin: auto;
-	padding-bottom: 10px;
+	
 }
 .unityThemeValo .u-textCenter {
 	text-align: center;
