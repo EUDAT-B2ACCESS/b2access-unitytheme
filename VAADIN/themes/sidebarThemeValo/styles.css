@@ -15901,23 +15901,18 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 22.5px;
 }
 
-.sidebarThemeValo .u-sidebar .v-grid-row-selected > td {
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
 	background: #264899;
 	color: #fff;
 	border-color: #D4D4D4;
 }
-.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon{
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-menubar-menuitem .v-icon{
 	color: #fff !important;
 }
-.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon:hover, .sidebarThemeValo .u-sidebar td .v-menubar-menuitem .v-icon:hover {
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon:hover, .sidebarThemeValo .u-sidebar td .v-menubar-menuitem .v-icon:hover, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-menubar-menuitem .v-icon:hover {
 	color: #f45d00 !important;
 }
 
-.sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
-	background: #6BBFCE;
-	color: #323232;
-	border-color: #D4D4D4;
-}
 
 .sidebarThemeValo .u-sidebar .v-treegrid-row-focused::before {
 	border: 1px solid #D4D4D4;
