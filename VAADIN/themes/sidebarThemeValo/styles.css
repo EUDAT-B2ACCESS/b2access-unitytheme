@@ -15379,25 +15379,40 @@ div.v-layout.v-horizontal.v-widget {
 	margin-bottom: 35px;
 }
 
-.sidebarThemeValo .u-bigTab .v-icon {
-	margin-top: -8px;
-	margin-bottom: 8px;
-}
 
 .sidebarThemeValo .u-bigTabSelected .v-icon {
-	margin-top: -8px;
-	margin-bottom: 8px;
+	color: #264899;
+}
+.sidebarThemeValo .u-bigTabSelected .v-label{
+	color: #264899;
 }
 
-.sidebarThemeValo .u-bigTab:hover {
-	background: url(../common/img/bigTab-bg2-gray.jpg);
-	box-shadow: 6px 6px 3px #888;
+.sidebarThemeValo .u-bigTab {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
 }
 
 .sidebarThemeValo .u-bigTabSelected {
-	background: url(../common/img/bigTab-bg2-blue.jpg);
-	color: black;
-	box-shadow: 6px 6px 3px #888;
+	background: #f2f2f2;
+	color: #264899;
+	box-shadow: none;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.sidebarThemeValo .u-bigTabSelected:before {
+	box-shadow: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	height: 100%;
+	width: 5px;
+	background:#264899;
+	text-align: center;
+	margin: auto;
+	
 }
 
 .sidebarThemeValo .u-textCenter {
@@ -16302,13 +16317,17 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .sidebarThemeValo .u-button-action {
-	background-color: #6BBFCE;
-	color: #323232;
+	background-color: #264899;
+	color: #fff;
 }
 
 .sidebarThemeValo .u-button-action:hover {
-	background-color: #3199AC;
-	color: #323232;
+	background-color: #f45d00;
+	color: #fff;
+}
+
+.v-slot-u-breadcrumbs .u-menuButton-wrap .u-menuButton-caption, .v-slot-u-breadcrumbs .u-menuButton-wrap .u-menuButton-caption{ 
+	color: #264899;
 }
 
 .sidebarThemeValo .u-button-form {
@@ -16350,6 +16369,7 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 22.5px;
 }
 
+<<<<<<< HEAD
 .sidebarThemeValo .u-sidebar .v-grid-row-selected > td {
 	background: #6BBFCE !important;
 	color: #323232;
@@ -16361,6 +16381,20 @@ div.v-layout.v-horizontal.v-widget {
 	color: #323232;
 	border-color: #D4D4D4;
 }
+=======
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
+	background: #264899;
+	color: #fff;
+	border-color: #D4D4D4;
+}
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-menubar-menuitem .v-icon{
+	color: #fff !important;
+}
+.sidebarThemeValo .u-sidebar .v-grid-row-selected > td .v-menubar-menuitem .v-icon:hover, .sidebarThemeValo .u-sidebar td .v-menubar-menuitem .v-icon:hover, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-menubar-menuitem .v-icon:hover {
+	color: #f45d00 !important;
+}
+
+>>>>>>> unity3
 
 .sidebarThemeValo .u-sidebar .v-treegrid-row-focused::before {
 	border: 1px solid #D4D4D4;
