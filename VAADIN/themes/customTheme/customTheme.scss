@@ -4,6 +4,9 @@ $v-background-color: #66FF99 !default;
 //We base our theme on Vaadin Valo theme
 @import "../valo/valo.scss";
 
+//stepper's add on style need to be included to have stepper widget all right
+@import "../../addons/stepper/stepper.scss";
+
 //And reuse the default Unity's theme definitions
 @import "../common/common.scss";
 
@@ -14,6 +17,11 @@ $v-background-color: #66FF99 !default;
 	//we include Valo
 	@include valo;
 	
+	//and stepper
+	@include stepper;
+	
+	//add icons
+	@include vaadin-icons;
 	
 	//let's override one of the variables used by Unity's default theme (imported below)
 	$headerBackgroundImage: 	none;
@@ -24,11 +32,11 @@ $v-background-color: #66FF99 !default;
 	//the actual changes follow
 	
 	//in the header caption we hide the default text and instead show a Unity logo
-	#uid-headerCaption {
+	.u-textEndpointHeading {
 		text-indent: 100%;
   		white-space: nowrap;
   		overflow: hidden;
-  		background-image: url("../common/img/logo.png");
+  		background-image: url("../common/img/other/logo.png");
   		background-repeat: no-repeat;
   		height: 130px;
 	}
