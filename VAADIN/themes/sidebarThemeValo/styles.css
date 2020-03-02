@@ -17006,7 +17006,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #fff;	
 } 
 
-.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-label-undef-w, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-label-undef-w{
+.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-widget, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-widget{
 	color:#fff !important;
 }
 .sidebarThemeValo .u-sidebar .v-tree8-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
