@@ -16874,7 +16874,7 @@ div.v-layout.v-horizontal.v-widget {
 	visibility: hidden;
 }
 .sidebarThemeValo .u-sidebar .v-grid-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {	
-	background: #264899;	
+	background: #264899 !important;	
 	color: #fff;	
 	border-color: #D4D4D4;	
 }
