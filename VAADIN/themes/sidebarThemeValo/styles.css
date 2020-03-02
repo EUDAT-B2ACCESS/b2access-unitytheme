@@ -17009,3 +17009,13 @@ div.v-layout.v-horizontal.v-widget {
 .v-slot .u-menuButton, .v-slot .v-slot-u-menuLabel .v-widget {	
 	color: #fff;	
 } 
+
+.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td {
+    background: #264899;
+	color:#fff;
+	border-color:#D4D4D4;
+}
+
+.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-icon{
+	color: #fff !important;
+}
