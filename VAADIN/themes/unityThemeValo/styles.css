@@ -16146,3 +16146,11 @@ nav a:hover {
 .v-widget.label {
     display: block;
 }
+
+.unityThemeValo .v-slot-u-authn-logo img{	
+	display: none;	
+}	
+	
+.unityThemeValo .u-authn-title{	
+	display: none;	
+}
