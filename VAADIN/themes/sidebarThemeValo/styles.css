@@ -16895,6 +16895,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #fff;	
 	padding: 0px 50px;	
 	width: 100%;	
+	font-family:"Open Sans", sans-serif;
 }	
 	
 #header {	
@@ -17012,7 +17013,7 @@ div.v-layout.v-horizontal.v-widget {
 } 
 
 .sidebarThemeValo .u-sidebar .v-tree8-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
-    background: #264899;
+    background: #264899 !important;
 	color:#fff;
 	border-color:#D4D4D4;
 }
