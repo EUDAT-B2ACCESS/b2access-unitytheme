@@ -1087,7 +1087,15 @@
 	text-align: left;
 	white-space: normal;
 }
-
+.v-widget.label {	
+	display: block;	
+	
+}	
+.v-widget.border {	
+	border-left: 1px solid #577CD5;	
+	border-right: 1px solid #577CD5;	
+	padding: 5px 10px 5px 10px;	
+}
 .v-generated-body {
 	overflow: hidden;
 	margin: 0;
@@ -16114,7 +16122,7 @@ nav a:hover {
 }
 
 .unityThemeValo .u-externalSignInButton, .unityThemeValo .u-externalGridSignInButton {
-	background: #53A0C6;
+	background: #264899;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
@@ -16124,7 +16132,7 @@ nav a:hover {
 }
 
 .unityThemeValo .u-externalSignInButton:hover, .unityThemeValo .u-externalGridSignInButton:hover {
-	background: #3486AE;
+	background: #f45d00;
 	color: white;
 }
 
