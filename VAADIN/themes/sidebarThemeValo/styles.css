@@ -17011,12 +17011,12 @@ div.v-layout.v-horizontal.v-widget {
 	color: #fff;	
 } 
 
-.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td {
+.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td {
     background: #264899;
 	color:#fff;
 	border-color:#D4D4D4;
 }
 
-.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-icon{
+.sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-icon, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-icon{
 	color: #fff !important;
 }
