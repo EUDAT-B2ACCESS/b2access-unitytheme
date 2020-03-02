@@ -16142,3 +16142,6 @@ nav a:hover {
 .v-slot-u-breadcrumbs .u-menuButton-wrap .u-menuButton-caption{ 
 	color: #264899;
 }
+.v-widget.label {
+    display: block;
+}
