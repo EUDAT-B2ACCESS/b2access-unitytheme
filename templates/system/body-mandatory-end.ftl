@@ -79,6 +79,17 @@ vaadin.initApplication("${appId}",{
 </div>
 
 <div class="v-slot">
+<hr/>
+	<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%; height: 19px;">
+		<div class="v-expand" style="padding-left: 0px;">
+			<div class="v-slot v-align-center v-align-middle" style="width: 100%; margin-left: 0px;">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="v-slot">
 	<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%; height: 19px;">
 		<div class="v-expand" style="padding-left: 0px;">
 			<div class="v-slot v-align-center v-align-middle" style="width: 100%; margin-left: 0px;">
