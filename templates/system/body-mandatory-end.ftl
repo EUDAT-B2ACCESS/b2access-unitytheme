@@ -54,42 +54,40 @@ vaadin.initApplication("${appId}",{
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="v-slot v-align-right" style="width: 50%;">
-				<div class="v-horizontallayout v-layout v-horizontal v-widget">
-					<div class="v-slot">
-                        <div class="v-link v-widget">
-							<a target="_blank" href="https://hdl.handle.net/11304/e43b2e3f-83c5-4e3f-b8b7-18d38d37a6cd"><span>EUDAT Service ToU</span></a>
-                        </div>
-                    </div>
-					<div class="v-slot">
-						<div class="v-link v-widget">
-							<a href="https://b2access.eudat.eu/unitygw/VAADIN/files/terms-of-use.html"><span>Terms of Use</span></a>
+				<div class="v-slot v-align-right" style="width: 50%;">
+					<div class="v-horizontallayout v-layout v-horizontal v-widget">
+						<div class="v-slot">
+	                        <div class="v-link v-widget">
+								<a target="_blank" href="https://hdl.handle.net/11304/e43b2e3f-83c5-4e3f-b8b7-18d38d37a6cd"><span>EUDAT Service ToU</span></a>
+	                        </div>
+	                    </div>
+						<div class="v-slot">
+							<div class="v-link v-widget">
+								<a href="https://b2access.eudat.eu/unitygw/VAADIN/files/terms-of-use.html"><span>Terms of Use</span></a>
+							</div>
 						</div>
-					</div>
-					<div class="v-slot">
-						<div class="v-link v-widget"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
-					</div>
-					<div class="v-slot">
-						<div class="v-link v-widget"><a href="https://eudat.eu"><span>About EUDAT</span></a></div>
+						<div class="v-slot">
+							<div class="v-link v-widget"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
+						</div>
+						<div class="v-slot">
+							<div class="v-link v-widget"><a href="https://eudat.eu"><span>About EUDAT</span></a></div>
+						</div>
 					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 	<div class="v-slot secondary-footer">
 		<div class="line"></div>
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
-				<div class="v-slot v-align-left v-align-middle" style="width: 20%;">
+				<div class="content-left" style="width: 30%;">
 					<div class="flag-eu">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 					</div>
-					<div class="project">
-						<img src="./VAADIN/themes/common/img/EOSC-hub-extended-grey.png" height="40px;">
-					</div>
 				</div>
-				<div class="v-slot v-align-left v-align-middle" style="width: 80%;">
+				<div class="v-slot v-align-left v-align-middle" style="width: 70%;">
 					<div class="disclaimer">co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
 			</div>
