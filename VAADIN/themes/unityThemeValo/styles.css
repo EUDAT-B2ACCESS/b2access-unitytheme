@@ -16153,7 +16153,9 @@ nav a:hover {
 	display: none;	
 }
 
-.secondary-footer hr{
+.secondary-footer .line{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	width: 100%;
+	border-bottom: 1px solid #888;
 }
