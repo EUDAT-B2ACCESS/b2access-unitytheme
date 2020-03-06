@@ -82,11 +82,11 @@ vaadin.initApplication("${appId}",{
 		<div class="line"></div>
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
-				<div class="content-left" style="width: 30%;">
-					<div class="flag-eu">
+				<div class="content-left v-slot" style="width: 30%;">
+					<div class="flag-eu" style="width:50%">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 					</div>
-					<div class="project">
+					<div class="project" style="width:50%">
 						<img src="./VAADIN/themes/common/img/EOSC-hub-extended-grey.png" height="40px;">
 					</div>
 				</div>
