@@ -80,10 +80,10 @@ vaadin.initApplication("${appId}",{
 
 <div class="v-slot secondary-footer">
 <div class="line"></div>
-	<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%; height: 19px;">
-		<div class="v-expand" style="padding-left: 0px;">
-			<div class="v-slot v-align-center v-align-middle" style="width: 100%; margin-left: 0px;">
-				
+	<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
+		<div class="v-expand">
+			<div class="v-slot v-align-center v-align-middle" style="width: 100%;>
+				<div class="flag-eu"><img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 			</div>
 		</div>
 	</div>
