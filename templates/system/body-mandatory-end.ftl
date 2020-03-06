@@ -82,8 +82,11 @@ vaadin.initApplication("${appId}",{
 <div class="line"></div>
 	<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 		<div class="v-expand">
-			<div class="v-slot v-align-center v-align-middle" style="width: 100%;>
-				<div class="flag-eu"><img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
+			<div class="v-slot v-align-left v-align-middle" style="width: 30%;>
+				<div class="flag-eu"><img src="./VAADIN/themes/common/img/euflag.png" height="40px;"></div>
+			</div>
+			<div class="v-slot v-align-left v-align-middle" style="width: 70%;>
+				<div class="disclaimer">co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 			</div>
 		</div>
 	</div>
