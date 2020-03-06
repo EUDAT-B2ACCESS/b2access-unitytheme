@@ -54,7 +54,7 @@ vaadin.initApplication("${appId}",{
 						</div>
 					</div>
 				</div>
-				<div class="v-slot v-align-right" style="width: 50%;">
+				<div style="width: 50%;" class="v-slot v-align-right v-align-middle">
 					<div class="v-horizontallayout v-layout v-horizontal v-widget">
 						<div class="v-slot">
 	                        <div class="v-link v-widget">
