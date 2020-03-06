@@ -82,7 +82,7 @@ vaadin.initApplication("${appId}",{
 		<div class="line"></div>
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
-				<div class="content-left v-slot" style="width: 30%;">
+				<div class="content-left v-slot" style="width: 10%; display:flex">
 					<div class="flag-eu" style="width:50%">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 					</div>
@@ -90,7 +90,7 @@ vaadin.initApplication("${appId}",{
 						<img src="./VAADIN/themes/common/img/EOSC-hub-extended-grey.png" height="40px;">
 					</div>
 				</div>
-				<div class="v-slot v-align-left" style="width: 70%;">
+				<div class="v-slot v-align-left" style="width: 90%;">
 					<div class="disclaimer">co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
 			</div>
