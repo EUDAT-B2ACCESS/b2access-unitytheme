@@ -86,8 +86,11 @@ vaadin.initApplication("${appId}",{
 					<div class="flag-eu">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 					</div>
+					<div class="project">
+						<img src="./VAADIN/themes/common/img/EOSC-hub-extended-grey.png" height="40px;">
+					</div>
 				</div>
-				<div class="v-slot v-align-left v-align-middle" style="width: 70%;">
+				<div class="v-slot v-align-left" style="width: 70%;">
 					<div class="disclaimer">co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
 			</div>
