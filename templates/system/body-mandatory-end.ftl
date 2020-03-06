@@ -81,7 +81,7 @@ vaadin.initApplication("${appId}",{
 	<div class="v-slot secondary-footer">
 		<div class="line"></div>
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
-			<div class="v-expand">
+			<div class="v-expand" style="display:flex">
 				<div class="content-left v-slot" style="width: 15%; display:flex">
 					<div class="flag-eu" style="">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
@@ -91,7 +91,7 @@ vaadin.initApplication("${appId}",{
 					</div>
 				</div>
 				<div class="v-slot v-align-left" style="width: 90%;">
-					<div class="disclaimer">Co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
+					<div class="disclaimer" style="padding-top:10px">Co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
 			</div>
 		</div>
