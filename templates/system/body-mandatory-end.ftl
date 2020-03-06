@@ -44,13 +44,14 @@ vaadin.initApplication("${appId}",{
 				<div class="v-slot" style="width: 50%; margin-left: 0px;">
 					<div id="footer-right" class="v-horizontallayout v-layout v-horizontal v-widget">
 						<div class="v-slot">
-						<div class="v-label v-widget v-label-undef-w">
-							<img src="./VAADIN/themes/common/img/Logo_eudat_CDI_white.svg" width="201px;">
-							
-						</div>
-						<div class="v-label v-widget v-label-undef-w label">
-								© 2019 EUDAT Collaborative Data Infrastructure
+							<div class="v-label v-widget v-label-undef-w">
+								<img src="./VAADIN/themes/common/img/Logo_eudat_CDI_white.svg" width="201px;">
+								
 							</div>
+							<div class="v-label v-widget v-label-undef-w label">
+									© 2019 EUDAT Collaborative Data Infrastructure
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -80,18 +81,20 @@ vaadin.initApplication("${appId}",{
 		<div class="line"></div>
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
-				<div class="v-slot v-align-left v-align-middle" style="width: 30%;">
+				<div class="v-slot v-align-left v-align-middle" style="width: 20%;">
 					<div class="flag-eu">
 						<img src="./VAADIN/themes/common/img/euflag.png" height="40px;">
 					</div>
+					<div class="project">
+						<img src="./VAADIN/themes/common/img/EOSC-hub-extended-grey.png" height="40px;">
+					</div>
 				</div>
-				<div class="v-slot v-align-left v-align-middle" style="width: 70%;>
+				<div class="v-slot v-align-left v-align-middle" style="width: 80%;">
 					<div class="disclaimer">co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<div class="v-slot">
 		<div class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%; height: 19px;">
 			<div class="v-expand" style="padding-left: 0px;">
