@@ -16985,8 +16985,6 @@ div.v-layout.v-horizontal.v-widget {
 	display: block;	
 }	
 .v-widget.border {	
-	border-left: 1px solid #577CD5;	
-	border-right: 1px solid #577CD5;	
 	padding: 5px 10px 5px 10px;	
 }	
 .v-widget {	
