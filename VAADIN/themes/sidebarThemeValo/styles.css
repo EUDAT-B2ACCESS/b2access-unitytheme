@@ -17017,3 +17017,9 @@ div.v-layout.v-horizontal.v-widget {
 .sidebarThemeValo .u-sidebar .v-tree8-row-selected > td .v-icon, .sidebarThemeValo .u-sidebar .v-treegrid-row-selected > td .v-icon{
 	color: #fff !important;
 }
+.secondary-footer .line{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	border-bottom: 1px solid #888;
+}
