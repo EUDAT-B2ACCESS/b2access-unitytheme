@@ -93,6 +93,9 @@ vaadin.initApplication("${appId}",{
 				<div class="v-slot v-align-left" style="width: 90%;">
 					<div class="disclaimer" style="padding-top:10px">Co-funded by the EOSC-hub project (Horizon 2020) under Grant number 777536</div>
 				</div>
+				<div class="v-slot v-align-right v-align-middle" style="width: 100%; margin-left: 0px;">
+					<div class="v-link v-widget"><a href="http://unity-idm.eu/"><span>Powered by Unity-IDM</span></a></div>
+				</div>
 			</div>
 		</div>
 	</div>
