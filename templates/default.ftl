@@ -11,6 +11,6 @@
     <#assign appId="main-element">
     <#include "system/body-main-ui.ftl">
     <#include "system/body-mandatory-end.ftl">
-
+    
   </body>
 </html>

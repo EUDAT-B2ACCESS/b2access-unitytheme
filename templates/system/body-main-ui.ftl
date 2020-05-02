@@ -1,4 +1,4 @@
-<div class="v-verticallayout v-layout v-vertical v-widget v-has-width" style="width: 100%;">
+  <div class="v-verticallayout v-layout v-vertical v-widget v-has-width" style="width: 100%;">
 	<div class="v-slot">
 		<div id="eudat" class="v-horizontallayout v-layout v-horizontal v-widget v-has-width" style="width: 100%;">
 			<div class="v-expand">
