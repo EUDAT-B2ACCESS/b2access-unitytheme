@@ -58,14 +58,9 @@ vaadin.initApplication("${appId}",{
 					<div class="v-horizontallayout v-layout v-horizontal v-widget">
 						<div class="v-slot">
 	                        <div class="v-link v-widget">
-								<a target="_blank" href="https://hdl.handle.net/11304/e43b2e3f-83c5-4e3f-b8b7-18d38d37a6cd"><span>EUDAT Service ToU</span></a>
+								<a target="_blank" href="https://www.eudat.eu/eudat-cdi-aup"><span>EUDAT Service ToU</span></a>
 	                        </div>
 	                    </div>
-						<div class="v-slot">
-							<div class="v-link v-widget">
-								<a href="https://b2access.eudat.eu/unitygw/VAADIN/files/terms-of-use.html"><span>Terms of Use</span></a>
-							</div>
-						</div>
 						<div class="v-slot">
 							<div class="v-link v-widget"><a href="https://b2access.eudat.eu/unitygw/VAADIN/files/data-privacy-statement.html"><span>Data Privacy Statement</span></a></div>
 						</div>
