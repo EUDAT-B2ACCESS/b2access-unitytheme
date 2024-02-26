@@ -1,4 +1,4 @@
-<div w3-include-html="VAADIN/themes/html/components/header.html"></div>
+<div w3-include-html="/unitygw/VAADIN/themes/html/templates/components/header.html"></div>
   
 <div id="${appId}" class="v-app ${theme}">
 	<div class="v-app-loading"></div>
@@ -6,6 +6,3 @@
 </div>
 
 <script>includeHTML()</script>
-
-  
-  
