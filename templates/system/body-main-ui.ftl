@@ -1,4 +1,4 @@
-<div w3-include-html="/unitygw/VAADIN/themes/html/templates/components/header.html"></div>
+<div class="header-mount" w3-include-html="/unitygw/VAADIN/themes/html/templates/components/header.html"></div>
   
 <div id="${appId}" class="v-app ${theme} ng-csp">
 	<div class="v-app-loading"></div>
