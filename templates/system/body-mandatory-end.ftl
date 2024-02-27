@@ -36,7 +36,7 @@ vaadin.initApplication("${appId}",{
     "heartbeatInterval": ${heartbeat}
 });
 //]]></script>
-<div id="footer" w3-include-html="/unitygw/VAADIN/themes/html/templates/components/footer.html"></div>
+<div id="b2access-footer" w3-include-html="/unitygw/VAADIN/themes/html/templates/components/footer.html"></div>
 <script>includeHTML()</script>
 
 
