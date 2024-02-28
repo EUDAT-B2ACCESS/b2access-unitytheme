@@ -1,6 +1,4 @@
-[submodule "VAADIN/files"]
-	path = VAADIN/files
-	url = https://github.com/EUDAT-B2ACCESS/b2access-files.git
 [submodule "VAADIN/themes/html"]
 	path = VAADIN/themes/html
 	url = https://github.com/EUDAT-B2ACCESS/b2access-theme.git
+	branch = dev
