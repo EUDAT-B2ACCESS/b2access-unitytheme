@@ -94,7 +94,7 @@
 	}
 	
 	.u-header {
-		background: $headerBackgroundImage;
+		background-color: $headerBackgroundColor;
 	}
 	
 	.u-textLarge {
@@ -137,14 +137,12 @@
 	}
 	
 	.u-bigTab:hover {
-	    background: $bigTabHoverBgImage;
-	    box-shadow: 6px 6px 3px $shadowColor;
+	    color: $bigTabHoverColor;
 	}
 	
 	.u-bigTabSelected {
-		background: $bigTabSelectedBgImage;
-		color: black;
-		box-shadow: 6px 6px 3px $shadowColor;
+		background-color: $bigTabSelectedBgColor;
+		color: $bigTabSelectedColor;
 	}
 	
 	.u-textCenter {
@@ -311,7 +309,7 @@
 	}
 
 	.u-link {
-		color : #197de1;
+		color : #264899;
 	}
 
 	.u-hidden {
@@ -460,7 +458,7 @@
 	}
 
 	.v-menubar-popup .v-menubar-menuitem .v-icon  {
-		color: #197de1;
+		color: #264899
 	}
 
 	.u-error-icon .v-icon  {
@@ -511,7 +509,7 @@
 	}
 	
     .drop-layout .v-horizontallayout-drag-center {
- 		background-color: #197de1;
+ 		background-color: #264899
  	}
  	
  	.drop-on {
@@ -606,7 +604,7 @@
 	}
 
 	.u-externalSignInButton {
-		background: #53A0C6;
+		background: #264899;
 		text-decoration: none;
 		color: white;
 		font-weight: bold;
@@ -616,8 +614,8 @@
 	}
 
 	.u-externalSignInButton:hover {
-		background: #3486AE;
-		color: white;
+		background: #264899;
+		color: #f45d00;
 	}
 
 	.u-externalGridSignInButton {

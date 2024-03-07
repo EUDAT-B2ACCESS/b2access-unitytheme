@@ -38,5 +38,4 @@ vaadin.initApplication("${appId}",{
 //]]></script>
 <div id="b2access-footer" w3-include-html="/unitygw/VAADIN/themes/html/templates/components/footer.html"></div>
 <script>includeHTML()</script>
-
-
+<script src="VAADIN/themes/html/js/fix-console.js"></script>
